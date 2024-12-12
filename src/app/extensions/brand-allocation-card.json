@@ -9,7 +9,7 @@
     ],
     "module": {
       "file": "DisplayBrandAllocation.jsx",
-      "type": "private"
+      "entryPoint": "main"
     }
   }
 }

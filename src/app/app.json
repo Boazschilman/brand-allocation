@@ -1,7 +1,7 @@
 {
-  "name": "Brand Allocation App",
-  "description": "Allocate agents between brands",
-  "scopes": ["crm.objects.contacts.read", "crm.objects.contacts.write"],
+  "name": "Brand Allocation",
+  "description": "Allocate licenses between brands",
+  "scopes": ["crm.objects.deals.read", "crm.objects.custom.write", "crm.objects.companies.read"],
   "public": false,
   "extensions": {
     "crm": {

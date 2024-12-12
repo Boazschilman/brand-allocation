@@ -4,12 +4,10 @@
     "title": "Brand Allocation",
     "uid": "brand_allocation_card",
     "location": "crm.record.sidebar",
-    "objectTypes": [
-      { "name": "deals" }
-    ],
+    "objectTypes": [{ "name": "deals" }],
     "module": {
       "file": "DisplayBrandAllocation.jsx",
-      "entryPoint": "main"
+      "type": "private"
     }
   }
 }

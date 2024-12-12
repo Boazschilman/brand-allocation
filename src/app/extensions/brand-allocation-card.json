@@ -8,16 +8,8 @@
       { "name": "deals" }
     ],
     "module": {
-      "file": "DisplayBrandAllocation.jsx"
-    },
-    "actions": [
-      {
-        "type": "IFRAME",
-        "width": 600,
-        "height": 500,
-        "uri": "https://hubspot-brands.onrender.com/allocation-form",
-        "label": "Allocate Brands"
-      }
-    ]
+      "file": "DisplayBrandAllocation.jsx",
+      "type": "private"
+    }
   }
 }

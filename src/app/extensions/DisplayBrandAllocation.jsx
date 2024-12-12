@@ -1,4 +1,4 @@
-const { Button, hubspot } = require("@hubspot/ui-extensions");
+import { Button, hubspot } from "@hubspot/ui-extensions";
 
 hubspot.extend(() => {
   return (
@@ -7,3 +7,5 @@ hubspot.extend(() => {
     </Button>
   );
 });
+
+export default Extension;

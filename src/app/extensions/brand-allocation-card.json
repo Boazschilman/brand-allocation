@@ -8,7 +8,7 @@
       { "name": "deals" }
     ],
     "module": {
-      "file": "components/DisplayBrandAllocation.jsx"
+      "file": "DisplayBrandAllocation.jsx"
     },
     "actions": [
       {

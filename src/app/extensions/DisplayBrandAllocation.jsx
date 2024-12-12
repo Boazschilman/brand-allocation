@@ -1,9 +1,10 @@
-const { Text, hubspot } = require('@hubspot/ui-extensions');
-
-hubspot.extend(() => {
-    return (
-        <Text>
-            Brand Allocation Test
-        </Text>
-    );
-});
+exports.main = function() {
+    return {
+        sections: [
+            {
+                type: "text",
+                text: "Brand Allocation Test"
+            }
+        ]
+    };
+};

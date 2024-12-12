@@ -1,0 +1,18 @@
+{
+  "name": "brand-allocation",
+  "version": "0.1.0",
+  "description": "Brand allocation manager for deals",
+  "license": "MIT",
+  "main": "DisplayBrandAllocation.jsx",
+  "scripts": {
+    "dev": "hs-ui-extensions-dev-server dev",
+    "build": "hs-ui-extensions-dev-server build"
+  },
+  "dependencies": {
+    "@hubspot/ui-extensions": "latest",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@hubspot/ui-extensions-dev-server": "latest"
+  }
+}

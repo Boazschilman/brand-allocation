@@ -1,9 +1,10 @@
-const { Button } = require('@hubspot/ui-extensions');
+const { Button, Text, hubspot } = require('@hubspot/ui-extensions');
 
-exports.main = ({ context }) => {
-  return (
-    <Button>
-      Allocate Brands
-    </Button>
-  );
-};
+// Define the extension to be run within the Hubspot CRM
+hubspot.extend(({{ context }}) => {
+    return (
+        <Button>
+            Hello World
+        </Button>
+    );
+});

@@ -1,0 +1,19 @@
+{
+  "type": "crm-card",
+  "data": {
+    "title": "Brand Allocation",
+    "uid": "brand_allocation_card",
+    "module": {
+      "file": "components/DisplayBrandAllocation.jsx"
+    },
+    "actions": [
+      {
+        "type": "IFRAME",
+        "width": 600,
+        "height": 500,
+        "uri": "https://hubspot-brands.onrender.com/allocation-form",
+        "label": "Allocate Brands"
+      }
+    ]
+  }
+}

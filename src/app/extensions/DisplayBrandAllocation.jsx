@@ -1,11 +1,9 @@
-import { Button, hubspot } from "@hubspot/ui-extensions";
+// File: src/app/extensions/DisplayBrandAllocation.jsx
+'use strict';
 
-hubspot.extend(() => {
-  return (
-    <Button>
-      Allocate Brands
-    </Button>
-  );
-});
+const { Button } = require('@hubspot/ui-extensions');
+const React = require('react');
 
-export default Extension;
+exports.extension = ({ actions }) => {
+  return React.createElement(Button, null, "Allocate Brands");
+};
